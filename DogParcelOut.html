@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--Dog Parcel Out-->
+<html lang="en-us"><head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("ul").hide();
+    $("img").click(function(){
+        $("ul").toggle(500);
+    });
+});
+</script>
+  <style>
+  label{display:inline-block; width:120px;}
+  input{display:inline-block; width:160px;}
+  input.a{background:#ccffff;}
+  body{
+    font-family:'210 Îß®Î∞ú?ùò Ï≤?∂òR.ttf'
+  }
+  h1{
+  background-color:#99e6ff;
+  color:white;
+  text-align:center;
+  font-size:50px;
+  padding:30px;
+  margin: 5px 2px;
+  }
+  td{
+    margin:10%;
+    padding:5%;
+    width:30%;
+    height:30%;
+    text-align:center;
+  }
+  td a{
+    text-decoration: none;
+
+  }
+  th{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#99e6ff;
+    padding: 10px;
+  }
+  ul{
+    position:absolute;
+    display:inline-block;
+    width:200px;
+    height:200%;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    border : none;
+    background-color: white;
+    z-index:1;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2)
+  }
+  .supply{
+    width:140px;
+    height:140px
+  }
+  #Icon{
+    float:left;
+    height: 25px;
+    width:25px;
+    padding:0px 5px;
+    cursor:pointer;
+  }
+  #plus{
+    display:block;
+    background-color:#99e6ff;
+    text-decoration-line: none;
+    color:white;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  #plus:visited{
+    display:block;
+    background-color:#99e6ff;
+    text-decoration-line: none;
+    color:black;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  #plus:hover{
+    display:block;
+    background-color:skyblue;
+    text-decoration-line: none;
+    color:white;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  li a{
+    display: block;
+    color:black;
+    margin:0;
+    padding: 16px;
+    text-decoration:none;
+    z-index:1;
+  }
+  li{
+    margin: 0;
+    text-align : center;
+    font-size:20px;
+    font-weight: bold;
+  }
+  li a.active{
+    background-color:#99e6ff;
+    color;white;
+  }
+  li a.active::after{
+    content:'?üê?';
+  }
+  li a:hover:not(.active)
+  {
+    background-color:#555;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+  <h1>?üê∂PUPPY LIFE?üê?</h1>
+  <a href="dafault.asp">
+    <img id="Icon" alt="Home Icons" src="home-146585_640.png">
+  </a>
+  <a><img id="Icon" alt="Menu Icons" src="menu-alt-512.png"></a>
+  <br><br>
+  <ul style="display: none;">
+  <li><a href="#">DOG Breeds</a></li>
+  <li><a href="?†ï?ïú Í∞úÏö©?íà?åå?ä∏.html">DOG Supplies</a></li>
+  <li><a class="active" href="?†ï?ïú Î∂ÑÏñë?ûÖ?†•?åå?ä∏.html">DOG Parcel Out</a></li>
+  <li><a href="#">DOG Donation</a></li>
+  <li><a href="#">Shopping Mall</a></li>
+  </ul>
+  <br><table style="width: 100%;">
+    <tbody><tr><th colspan="2">DOG Parcel Out</th>
+    
+  </tr></tbody></table>
+<from action="" method="post">
+  <fieldset>
+    <legend>Parcel Out Application</legend>
+    <fieldset>
+      <legend>Enter Member Information</legend>
+      <label for="Name">Name</label>
+      <input name="name" class="a" type="text">
+      <br><br>
+      <label for="Age">Age</label>
+      <input name="age" class="a" type="number">
+      <br><br>
+      <label for="phone">Phone Number</label>
+      <input name="phone" class="a" type="text">
+      <br><br>
+      <label for="occupation">Occupation</label>
+      <input name="occupation" class="a" type="text">
+      <br><br>
+      <label for="gender">Gender</label>
+      <select name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br><br>
+      <label for="family">Family Particulars</label>
+      <textarea style="resize: none;" rows="4" cols="60"></textarea>
+    
+      <fieldset>
+          <legend>Do you have any Pet Dog?</legend>
+            <textarea style="resize: none;" rows="5" cols="115"></textarea>
+      </fieldset>
+      <fieldset>
+          <legend>Reasons why you want Parcel Out</legend>
+            <textarea style="resize: none;" rows="12" cols="115"></textarea>
+      </fieldset>
+
+<input name="submit" type="submit" value="submit">
+
+
+
+
+</fieldset></fieldset></from></body></html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--Dog Supplies-->
+<html lang="en-us"><head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("ul").hide();
+    $("img").click(function(){
+        $("ul").toggle(500);
+    });
+});
+</script>
+  <style>
+  body{
+    font-family:'210 Îß®Î∞ú?ùò Ï≤?∂òR.ttf'
+  }
+  h1{
+  background-color:#99e6ff;
+  color:white;
+  text-align:center;
+  font-size:50px;
+  padding:30px;
+  margin: 5px 2px;
+  }
+  td{
+    margin:10%;
+    padding:5%;
+    width:30%;
+    height:30%;
+    text-align:center;
+  }
+  td a{
+    text-decoration: none;
+
+  }
+  th{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#99e6ff;
+    padding: 10px;
+  }
+  ul{
+    position:absolute;
+    display:inline-block;
+    width:200px;
+    height:200%;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    border : none;
+    background-color: white;
+    z-index:1;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2)
+  }
+  .supply{
+    width:140px;
+    height:140px
+  }
+  #Icon{
+    float:left;
+    height: 25px;
+    width:25px;
+    padding:0px 5px;
+    cursor:pointer;
+  }
+  #plus{
+    display:block;
+    background-color:#99e6ff;
+    text-decoration-line: none;
+    color:white;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  #plus:visited{
+    display:block;
+    background-color:#99e6ff;
+    text-decoration-line: none;
+    color:black;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  #plus:hover{
+    display:block;
+    background-color:skyblue;
+    text-decoration-line: none;
+    color:white;
+    margin: 0% 30%;
+    font-size: 20px;
+  }
+  li a{
+    display: block;
+    color:black;
+    margin:0;
+    padding: 16px;
+    text-decoration:none;
+    z-index:1;
+  }
+  li{
+    margin: 0;
+    text-align : center;
+    font-size:20px;
+    font-weight: bold;
+  }
+  li a.active{
+    background-color:#99e6ff;
+    color;white;
+  }
+  li a.active::after{
+    content:'?üê?';
+  }
+  li a:hover:not(.active)
+  {
+    background-color:#555;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+  <h1>?üê∂PUPPY LIFE?üê?</h1>
+  <a href="dafault.asp">
+    <img id="Icon" alt="Home Icons" src="home-146585_640.png">
+  </a>
+  <a><img id="Icon" alt="Menu Icons" src="menu-alt-512.png"></a>
+  <br><br>
+  <ul style="display: none;">
+  <li><a href="#">DOG Breeds</a></li>
+  <li><a class="active" href="?†ï?ïú Í∞úÏö©?íà?åå?ä∏.html">DOG Supplies</a></li>
+  <li><a href="?†ï?ïú Î∂ÑÏñë?ûÖ?†•?åå?ä∏.html">DOG Parcel Out</a></li>
+  <li><a href="#">DOG Donation</a></li>
+  <li><a href="#">Shopping Mall</a></li>
+  </ul>
+  <br><table style="width: 100%;">
+    <tbody><tr><th colspan="5">DOG Supplies</th>
+    
+    <tr>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà1.jpg"><p>Puppy's Toilet Board (size:big)<br>$22.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà2.jpg"><p>Puppy's Toilet Board (size:middle)<br>$12.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà3.jpg"><p>Puppy's Toilet Board (size:small)<br>$11.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà4.jpg"><p>Puppy's Spray Deodorant<br>$9.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà5.png"><p>Puppy's Diaper 10<br>$3.99</p></a></td>
+      </tr>
+    <tr>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà6.jpg"><p>Puppy's Diaper 10 x4<br>$13.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà7.jpg"><p>Puppy's Wooden Feeder Double<br>$22.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà8.jpg"><p>Puppy's Wooden Feeder<br>$22.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà10.jpg"><p>Puppy's Steel Feeder Double<br>$24.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà9.jpg"><p>Puppy's Steel Feeder<br>$19.99</p></a></td>
+      </tr>
+      <tr>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà12.jpg"><p>Plush Chicken Dog Toy<br>$2.49</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà13.png"><p>Mini Zoo Pack Dog Toy<br>$3.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà14.png"><p>Puppy Dental pack Dog Toy<br>$2.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà15.jpg"><p>Plush Monster Dog Toy<br>$3.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà16.jpg"><p>Knit Puppy Dog Toy<br>$3.99</p></a></td>
+      </tr>
+      <tr>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà17.png"><p>Bunny Plush Dog Toy<br>$1.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà20.jpg"><p>Adult Dog Food - Chicken &amp; Brown Rice<br>$15.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà21.jpg"><p>Adult Dog Food - Grain Free, Natural, Salmon<br>$17.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà22.jpg"><p>Adult Dog Food - Grain Free, Natural, Chicken<br>$16.99</p></a></td>
+      <td><a href=""><img class="supply" style="border: 1px solid rgb(225, 225, 225); border-image: none;" src="?ö©?íà23.jpg"><p>Grain Free Grillers Adult Dog Food<br>$1.99</p></a></td>
+      </tr>
+  </tbody></table>
+
+
+</body></html>
